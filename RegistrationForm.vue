@@ -91,6 +91,18 @@ export default {
         background-color: #f4f4f4;
         padding: 2rem;
     }
+
+    @media (max-width: 767px) {
+        .container {
+            padding: 1rem;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        .container {
+            padding: 1.5rem;
+        }
+    }
     .form-h2 {
         background-color: #333;
         color: white;
@@ -115,3 +127,4 @@ export default {
         color: white;
     }
 </style>
+
